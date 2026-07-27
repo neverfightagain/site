@@ -1,0 +1,197 @@
+.section4 {
+  height: 1000px;
+  width: 100%;
+
+  background: var(--second-text-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#id {
+  margin: 0;
+  padding: 0;
+
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+
+  color: white;
+}
+
+#join{
+  margin: 0;
+  padding: 0;
+
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.btns2 {
+  display: flex;
+  gap: 13px;
+}
+
+.button1 {
+  background: white;
+  border: none;
+  border-radius: 7px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  width: 153px;
+  height: 60px;
+
+  font-family: "SF Pro Display", sans-serif;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.get {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.before {
+  width: 32px;
+  height: 32px;
+}
+
+.appka {
+  color: #1A1919;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.iphone-card {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.iphone {
+  display: block;
+  height: 900px;
+  width: 444px;
+}
+
+.mockup {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+}
+
+.shlak {
+  position: absolute;
+}
+
+.piska1 {
+  position: absolute;
+  bottom: 300px;
+  right: 650px;
+
+  width: 600px;
+  height: 600px;
+  max-width: none;
+}
+
+.piska2 {
+  position: absolute;
+  bottom: 350px;
+  right: 140px;
+  width: 85px;
+  height: 85px;
+  max-width: none;
+}
+
+.piska3 {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  max-width: none;
+  bottom: 300px;
+  left: 900px;
+}
+
+.piska4 {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  max-width: none;
+  top: 400px;
+  right: 750px;
+}
+
+.piska5 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  max-width: none;
+  top: 400px;
+  left: 700px;
+}
+
+.piska6 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  max-width: none;
+  top: 100px;
+  right: 250px;
+}
+
+.krugi {
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  z-index: 3;
+  width: 540px;
+  height: 530px;
+  max-width: none;
+}
+
+.krugi2 {
+  position: absolute;
+  bottom: 150px;
+  left: 700px;
+  width: 540px;
+  height: 530px;
+  max-width: none;
+}
+

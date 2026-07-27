@@ -1,0 +1,156 @@
+.section1 {
+  width: 100% ;
+  height: 1000px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background:
+    radial-gradient(circle at top left, rgba(216, 180, 255, 0.6) 0%, transparent 40%),
+      radial-gradient(circle at bottom right, rgba(216, 180, 255, 0.6) 0%, transparent 40%),
+      white;
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.made-easy {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.made-easy h1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 80px;
+
+  margin: 0;
+
+  position: relative;
+  z-index: 5;
+}
+
+.easypay {
+  background: linear-gradient(90deg,rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.made-easy p {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--small);
+
+  margin: 0;
+
+  position: relative;
+  z-index: 5;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+
+  margin: 0;
+}
+
+.get-started-btn {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+
+  width: 150px;
+  height: 43px;
+  padding: 2px;
+  margin: 0;
+  box-sizing: border-box;
+
+  border: none;
+  outline: none;
+  background: linear-gradient(16deg,rgba(185, 119, 255, 1) 38%, rgba(96, 38, 158, 1) 100%);
+
+
+}
+
+.join {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+
+  width: 220px;
+  height: 43px;
+  padding: 2px;
+  margin: 0;
+  box-sizing: border-box;
+
+  border: 1px solid transparent;
+  outline: none;
+
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%) border-box;
+
+  cursor: pointer;
+}
+
+.join span {
+  background: linear-gradient(90deg, rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.section1-image img {
+  height: 603px;
+  width: 719px;
+}
+
+.section1-particles {
+  position: absolute;
+}
+
+#particle1, #particle2, #circle1, #circle2, #circle3, #star {
+  position: absolute;
+}
+
+#particle1 {
+  top: 0;
+  right: 0;
+}
+
+#particle2 {
+  bottom: 247px;
+  left: 659px;
+}
+
+#circle1 {
+  bottom: 1050px;
+  left: 700px;
+}
+
+#circle2 {
+  bottom: 500px;
+  left: -550px;
+}
+
+#circle3 {
+  bottom: 450px;
+  left: 1200px;
+  z-index: 3 ;
+}
+
+#star {
+  bottom: 1030px;
+  left: 300px;
+}

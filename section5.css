@@ -1,0 +1,135 @@
+.section5 {
+  width: 100%;
+  height: 1350px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.for-business {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+
+}
+
+.boost {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.for {
+  font-family: "SF Pro Display", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.boost h2 {
+  font-family: "SF Pro Display", sans-serif;
+  color: black;
+  font-weight: 900;
+  font-size: 45px;
+  margin: 0;
+  line-height: 55px;
+}
+
+h2 span {
+  font-family: "SF Pro Display", sans-serif;
+  background: linear-gradient(90deg,rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.jopa {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.join1   {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--small);
+
+}
+
+.coming-soon {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  background: linear-gradient(16deg,rgba(185, 119, 255, 1) 38%, rgba(96, 38, 158, 1) 100%);
+  height: 43px;
+  width: 110px ;
+}
+
+.section5-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  border-bottom: solid 2px black;
+  padding-bottom: 50px;
+}
+
+.plechi {
+  position: relative;
+}
+
+.plechi-img {
+  height: 585px;
+  width: 470px;
+  position: relative;
+  z-index: 3;
+}
+
+.kvadr1 {
+  position: absolute;
+  background: var(--second-text-color);
+  border-radius: 5px;
+  width: 245px;
+  height: 425px;
+  bottom: 180px;
+  right: 245px;
+}
+
+.kvadr2 {
+  position: absolute;
+  background: #EC8220;
+  border-radius: 5px;
+  width: 245px;
+  height: 425px;
+  top: 180px;
+  left: 245px;
+
+}
+
+.parag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 1111px;
+  height: 500px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "SF Pro Display", sans-serif;
+  color: black;
+  word-wrap: break-word;
+  margin-top: 50px;
+}

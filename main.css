@@ -197,16 +197,16 @@ svg * {
   border-color: currentColor;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+/*@media (prefers-reduced-motion: reduce) {*/
+/*  *,*/
+/*  ::before,*/
+/*  ::after {*/
+/*    animation-duration: 0.01ms !important;*/
+/*    animation-iteration-count: 1 !important;*/
+/*    transition-duration: 0.01ms !important;*/
+/*    scroll-behavior: auto !important;*/
+/*  }*/
+/*}*/
 
 @font-face {
   font-family: 'SF Pro Display';
@@ -324,4 +324,16 @@ button {
   border: none;
   outline: none;
 
+  transition: 0.3s ease;
 }
+
+button:hover {
+  transform: translate(1px,-4px);
+  -webkit-transform: translate(1px,-4px);
+  -moz-transform: translate(1px,-4px);
+
+  box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
+  -webkit-box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
+  -moz-box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
+}
+

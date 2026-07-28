@@ -125,9 +125,9 @@ h2 span {
   justify-content: flex-start;
   gap: 15px;
   width: 1111px;
-  height: 500px;
   font-size: 16px;
   font-weight: 400;
+  overflow: hidden;
   font-family: "SF Pro Display", sans-serif;
   color: black;
   word-wrap: break-word;

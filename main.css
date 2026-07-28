@@ -87,8 +87,8 @@ p:where(:not([class]):not(:last-child)) {
 img,
 video {
   display: block;
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;*/
+  /*height: auto;*/
 }
 
 /**
@@ -337,3 +337,11 @@ button:hover {
   -moz-box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

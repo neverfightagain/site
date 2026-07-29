@@ -37,9 +37,11 @@
 .easypay {
   background: linear-gradient(90deg,rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
   background-clip: text;
+  background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  animation: gradient 6s ease infinite;
 }
 
 .made-easy p {
@@ -118,6 +120,7 @@
   position: absolute;
 }
 
+
 #particle1, #particle2, #circle1, #circle2, #circle3, #star {
   position: absolute;
 }
@@ -144,4 +147,10 @@
 #star {
   bottom: 250px;
   right: 200px;
+}
+
+@keyframes gradient {
+  0% { background-position: 0 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
 }

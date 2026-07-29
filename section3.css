@@ -70,6 +70,7 @@
   font-size: 18px;
 
   background: linear-gradient(143deg, #B977FF 0%, #60269E 100%);
+  background-size: 150% 150%;
 
   border: none;
   outline: none;
@@ -78,4 +79,8 @@
   width: 200px;
 
   cursor: default;
+}
+
+.send:hover {
+  animation: gradient 3s ease infinite;
 }

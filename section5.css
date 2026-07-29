@@ -75,8 +75,11 @@ h2 span {
   color: white;
   font-weight: 400;
   background: linear-gradient(16deg,rgba(185, 119, 255, 1) 38%, rgba(96, 38, 158, 1) 100%);
+  background-size: 150% 150%;
   height: 43px;
   width: 110px ;
+
+  animation: gradient 3s ease infinite;
 }
 
 .section5-1 {

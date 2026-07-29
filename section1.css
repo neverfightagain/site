@@ -79,6 +79,11 @@
   border: none;
   outline: none;
   background: linear-gradient(16deg,rgba(185, 119, 255, 1) 38%, rgba(96, 38, 158, 1) 100%);
+  background-size: 150% 150%;
+}
+
+.get-started-btn:hover {
+  animation: gradient 3s ease infinite;
 }
 
 .join {
@@ -100,7 +105,7 @@
     linear-gradient(#fff, #fff) padding-box,
     linear-gradient(90deg, rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%) border-box;
 
-  cursor: pointer;
+  cursor: default;
 }
 
 .join span {
@@ -147,10 +152,4 @@
 #star {
   bottom: 250px;
   right: 200px;
-}
-
-@keyframes gradient {
-  0% { background-position: 0 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0 50%; }
 }

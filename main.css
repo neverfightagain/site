@@ -148,7 +148,7 @@ a:where([class]) {
  */
 button,
 label {
-  cursor: pointer;
+  cursor: default;
 }
 
 /**
@@ -317,7 +317,7 @@ button {
   align-items: center;
   display: inline-flex;
   gap: 10px;
-  cursor: pointer;
+  cursor: default;
 
   position: relative;
   z-index: 5;
@@ -329,4 +329,49 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+@keyframes gradient {
+  0% { background-position: 0 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+
+
+
+
+@keyframes tuda {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes suda {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

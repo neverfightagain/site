@@ -45,9 +45,11 @@ h2 span {
   font-family: "SF Pro Display", sans-serif;
   background: linear-gradient(90deg,rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
   background-clip: text;
+  background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  animation: gradient 6s ease infinite;
 }
 
 .jopa {

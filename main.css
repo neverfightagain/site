@@ -328,20 +328,5 @@ button {
 }
 
 button:hover {
-  transform: translate(1px,-4px);
-  -webkit-transform: translate(1px,-4px);
-  -moz-transform: translate(1px,-4px);
-
-  box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
-  -webkit-box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
-  -moz-box-shadow: -3px 2px 11px 0px rgba(0,0,0,0.29);
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transform: scale(1.05);
 }

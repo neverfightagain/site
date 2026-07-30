@@ -11,14 +11,15 @@
 
   position: relative;
   overflow: hidden;
-
 }
 
 .download-container {
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  position: relative;
+  z-index: 10;
 }
-
 
 .download {
   display: flex;
@@ -26,22 +27,20 @@
   gap: 10px;
 }
 
-#id {
+.download-to-get {
   margin: 0;
   padding: 0;
 
-  font-family: "SF Pro Display", sans-serif;
   font-size: 45px;
   font-weight: 900;
 
   color: white;
 }
 
-#join{
+.join-category {
   margin: 0;
   padding: 0;
 
-  font-family: "SF Pro Display", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: white;
@@ -64,7 +63,6 @@
   width: 153px;
   height: 60px;
 
-  font-family: "SF Pro Display", sans-serif;
   color: black;
   font-size: 12px;
   font-weight: 400;
@@ -89,12 +87,6 @@
   line-height: 19px;
 }
 
-.download-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
 .iphone-card {
   position: relative;
 
@@ -102,10 +94,10 @@
   align-items: center;
   justify-content: center;
   gap: 35px;
+  z-index: 10;
 }
 
 .iphone {
-  display: block;
   height: 900px;
   width: 444px;
 }
@@ -114,86 +106,68 @@
   position: absolute;
   top: 20px;
   left: 20px;
-
 }
 
-.shlak {
+.section4-particles {
   position: absolute;
 }
 
-.piska1 {
-  position: absolute;
-  bottom: 300px;
-  right: 650px;
-
+.big-particle {
+  top: -32%;
+  left: -7%;
   width: 600px;
   height: 600px;
-  max-width: none;
 }
 
-.piska2 {
-  position: absolute;
-  bottom: 350px;
-  right: 140px;
+.circle1-4 {
+  top: 15%;
+  right: 55%;
   width: 85px;
   height: 85px;
-  max-width: none;
 }
 
-.piska3 {
-  position: absolute;
+.circle2-4 {
+  bottom: 5%;
+  left: 5%;
   width: 67px;
   height: 67px;
-  max-width: none;
-  bottom: 300px;
-  left: 900px;
 }
 
-.piska4 {
-  position: absolute;
+.circle3-4 {
+  bottom: 7%;
+  right: 7%;
   width: 67px;
   height: 67px;
-  max-width: none;
-  top: 400px;
-  right: 750px;
 }
 
-.piska5 {
-  position: absolute;
+.circle4-4 {
+  bottom: 37%;
+  left: 35%;
   width: 47px;
   height: 47px;
-  max-width: none;
-  top: 400px;
-  left: 700px;
 }
 
-.piska6 {
-  position: absolute;
+.circle5-4 {
+  top: 15%;
+  right: 1%;
   width: 47px;
   height: 47px;
-  max-width: none;
-  top: 100px;
-  right: 250px;
 }
 
-.krugi {
-  position: absolute;
-  top: 200px;
-  right: 700px;
+.circle-group {
+  top: -10%;
+  right: -15%;
   z-index: 3;
   width: 540px;
   height: 530px;
-  max-width: none;
-  animation: suda 9s ease infinite;
+  animation: move-right 9s ease infinite;
 }
 
-.krugi2 {
-  position: absolute;
-  bottom: 150px;
-  left: 700px;
+.circle-group1 {
+  bottom: -10%;
+  left: -15%;
   width: 540px;
   height: 530px;
-  max-width: none;
-  animation: tuda 9s ease infinite;
+  animation: move-left 9s ease infinite;
 }
 

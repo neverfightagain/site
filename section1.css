@@ -23,7 +23,6 @@
 }
 
 .made-easy h1 {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 900;
   font-size: 70px;
   line-height: 80px;
@@ -41,11 +40,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  animation: gradient 6s ease infinite;
+  animation: var(--gradient2);
 }
 
 .made-easy p {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: var(--small);
@@ -64,7 +62,6 @@
 }
 
 .get-started-btn {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1;
@@ -83,11 +80,10 @@
 }
 
 .get-started-btn:hover {
-  animation: gradient 3s ease infinite;
+  animation: var(--gradient);
 }
 
 .join {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1;
@@ -119,40 +115,37 @@
 .section1-image img {
   height: 603px;
   width: 719px;
-
 }
 
-.section1-particles {
+.particle {
   position: absolute;
-  pointer-events: none;
 }
 
-
-#particle1, #particle2, #circle1, #circle2, #circle3, #star {
-  position: absolute;
-  pointer-events: none;
-}
-
-#circle1 {
-  bottom: 350px;
-  left: 300px;
+.circle1 {
+  top: 12%;
+  right: 34%;
   height: 35px;
   width: 35px;
 }
 
-#circle2 {
-  top: 300px;
-  right: 900px
+.circle2 {
+  bottom: 17%;
+  right: 11%;
 }
 
-#circle3 {
-  top: 300px;
-  left: 780px;
+.circle3 {
+  bottom: 24%;
+  left: 5%;
   height: 30px;
   width: 30px;
 }
 
-#star {
-  bottom: 250px;
-  right: 200px;
+.star {
+  top: 17%;
+  right: 12%;
+}
+
+.star2 {
+  top: 25%;
+  left: 34%;
 }

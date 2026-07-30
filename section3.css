@@ -12,30 +12,20 @@
 }
 
 .phone-final {
-  width: 445px;
-  height: 908px;
-
   position: relative;
-}
-
-.phone {
-  display: block;
-  width: 100%;
 }
 
 .screen {
   position: absolute;
-  top: 15px;
-  left: 20px;
-  width: 90%;
+  top: 2.5%;
+  left: 5%;
   z-index: 1;
 }
 
 .frame {
   position: absolute;
-  bottom: 160px;
-  right: -150px;
-
+  bottom: 18%;
+  left: 75%;
   z-index: 2;
 }
 
@@ -47,7 +37,6 @@
 }
 
 .send-cash {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 900;
   color: black;
   margin: 0;
@@ -55,7 +44,6 @@
 }
 
 .transfer {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   color: var(--small);
   margin-top: -20px;
@@ -63,7 +51,6 @@
 }
 
 .send {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 500;
   color: white;
   margin: 0;
@@ -82,5 +69,5 @@
 }
 
 .send:hover {
-  animation: gradient 3s ease infinite;
+  animation: var(--gradient);
 }

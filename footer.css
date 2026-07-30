@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   gap: 100px;
+  overflow: hidden;
 }
 
 .st-footer-section {
@@ -36,7 +37,6 @@
 
 .eazy h2 {
   color: var(--second-text-color);
-  font-family: "SF Pro Display", sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -44,7 +44,6 @@
 
 .social {
   color: var(--small);
-  font-family: "SF Pro Display", sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -68,7 +67,6 @@
   width: 153px;
   height: 60px;
 
-  font-family: "SF Pro Display", sans-serif;
   color: black;
   font-size: 12px;
   font-weight: 400;
@@ -101,7 +99,6 @@
 
 .podpisano, nav a {
   text-decoration: none;
-  font-family: "SF Pro Display", sans-serif;
   color: var(--small);
 }
 
@@ -110,10 +107,6 @@
   font-size: 24px;
 }
 
-nav a {
-  font-size: 18px;
-  font-weight: 400;
-}
 
 .company, .help, .product {
   display: flex;
@@ -136,7 +129,6 @@ nav a {
 }
 
 .paybymax, .res {
-  font-family: "SF Pro Display", sans-serif;
   font-size: 14px;
   font-weight: 400;
 

@@ -49,7 +49,6 @@
 }
 
 .up-text {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: var(--second-text-color);
@@ -58,7 +57,6 @@
 }
 
 .down-text {
-  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: var(--small);

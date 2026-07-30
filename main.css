@@ -197,16 +197,6 @@ svg * {
   border-color: currentColor;
 }
 
-/*@media (prefers-reduced-motion: reduce) {*/
-/*  *,*/
-/*  ::before,*/
-/*  ::after {*/
-/*    animation-duration: 0.01ms !important;*/
-/*    animation-iteration-count: 1 !important;*/
-/*    transition-duration: 0.01ms !important;*/
-/*    scroll-behavior: auto !important;*/
-/*  }*/
-/*}*/
 
 @font-face {
   font-family: 'SF Pro Display';
@@ -297,7 +287,9 @@ svg * {
   --second-basecolor: #fdf3fe;
   --textcolor: #222222;
   --second-text-color: #60269E;
-  --small: #666666
+  --small: #666666;
+  --gradient: gradient 3s ease infinite;
+  --gradient2: gradient 6s ease infinite;
 }
 
 html {
@@ -307,8 +299,8 @@ html {
 
 body {
   background: var(--basecolor);
-
   scroll-behavior: smooth !important;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 button {
@@ -340,7 +332,7 @@ button:hover {
 
 
 
-@keyframes tuda {
+@keyframes move-right {
   0% {
     transform: translateX(0);
   }
@@ -358,7 +350,7 @@ button:hover {
   }
 }
 
-@keyframes suda {
+@keyframes move-left {
   0% {
     transform: translateX(0);
   }

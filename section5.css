@@ -26,7 +26,6 @@
 }
 
 .for {
-  font-family: "SF Pro Display", sans-serif;
   color: black;
   font-weight: 500;
   font-size: 24px;
@@ -34,7 +33,6 @@
 }
 
 .boost h2 {
-  font-family: "SF Pro Display", sans-serif;
   color: black;
   font-weight: 900;
   font-size: 45px;
@@ -43,14 +41,13 @@
 }
 
 h2 span {
-  font-family: "SF Pro Display", sans-serif;
   background: linear-gradient(90deg,rgba(96, 38, 158, 1) 0%, rgba(3, 207, 252, 1) 35%, rgba(185, 119, 255, 1) 77%);
   background-clip: text;
   background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  animation: gradient 6s ease infinite;
+  animation: var(--gradient2);
 }
 
 .jopa {
@@ -62,7 +59,6 @@ h2 span {
 }
 
 .join1   {
-  font-family: "SF Pro Display", sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -71,7 +67,6 @@ h2 span {
 }
 
 .coming-soon {
-  font-family: "SF Pro Display", sans-serif;
   font-size: 20px;
   color: white;
   font-weight: 400;
@@ -80,7 +75,7 @@ h2 span {
   height: 43px;
   width: 110px ;
 
-  animation: gradient 3s ease infinite;
+  animation: var(--gradient);
 }
 
 .section5-1 {
@@ -134,7 +129,6 @@ h2 span {
   font-size: 16px;
   font-weight: 400;
   overflow: hidden;
-  font-family: "SF Pro Display", sans-serif;
   color: black;
   word-wrap: break-word;
   margin-top: 50px;

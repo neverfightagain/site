@@ -97,12 +97,12 @@
   gap: 200px;
 }
 
-.podpisano, nav a {
+.footer-nav, nav a {
   text-decoration: none;
   color: var(--small);
 }
 
-.podpisano {
+.footer-nav {
   font-weight: 700;
   font-size: 24px;
 }
@@ -128,7 +128,7 @@
 
 }
 
-.paybymax, .res {
+.copyright, .res {
   font-size: 14px;
   font-weight: 400;
 
@@ -156,7 +156,7 @@
   align-items: center;
 }
 
-.social1 img {
+.socials-url img {
   width: 32px;
   height: 32px;
 }

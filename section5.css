@@ -50,7 +50,7 @@ h2 span {
   animation: var(--gradient2);
 }
 
-.jopa {
+.down-text-1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -66,7 +66,7 @@ h2 span {
 
 }
 
-.coming-soon {
+.get-it {
   font-size: 20px;
   color: white;
   font-weight: 400;
@@ -87,18 +87,18 @@ h2 span {
   padding-bottom: 50px;
 }
 
-.plechi {
+.section5-images {
   position: relative;
 }
 
-.plechi-img {
+.clothes-image {
   height: 585px;
   width: 470px;
   position: relative;
   z-index: 3;
 }
 
-.kvadr1 {
+.square {
   position: absolute;
   background: var(--second-text-color);
   border-radius: 5px;
@@ -108,7 +108,7 @@ h2 span {
   right: 245px;
 }
 
-.kvadr2 {
+.square2 {
   position: absolute;
   background: #EC8220;
   border-radius: 5px;

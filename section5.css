@@ -1,6 +1,6 @@
 .section5 {
   width: 100%;
-  height: 1350px;
+  height: 130vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -28,14 +28,14 @@
 .for {
   color: black;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .boost h2 {
   color: black;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 2.8125rem;
   margin: 0;
   line-height: 55px;
 }
@@ -59,7 +59,7 @@ h2 span {
 }
 
 .join1   {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   margin: 0;
   color: var(--small);
@@ -67,7 +67,7 @@ h2 span {
 }
 
 .get-it {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
   font-weight: 400;
   background: linear-gradient(16deg,rgba(185, 119, 255, 1) 38%, rgba(96, 38, 158, 1) 100%);
@@ -126,7 +126,7 @@ h2 span {
   justify-content: flex-start;
   gap: 15px;
   width: 1111px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   overflow: hidden;
   color: black;

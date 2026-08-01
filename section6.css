@@ -1,6 +1,6 @@
 .section6 {
   width: 100%;
-  height: 700px;
+  height: 65vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,14 +31,14 @@
 
 .newsletter {
   font-weight: 900;
-  font-size: 45px;
+  font-size: 2.8125rem;
   margin: 0;
   color: var(--second-text-color);
 }
 
 .get1  {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--small);
   margin: 0;
 }
@@ -56,7 +56,7 @@
   border: none;
   outline: none;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--small);
   margin: 0;
   text-decoration: none;
@@ -96,7 +96,7 @@
   width: 140px;
 
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
 
 }
 
@@ -117,7 +117,7 @@
 
   color: #666666;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .back::after {

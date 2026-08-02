@@ -95,6 +95,7 @@ h2 span {
   height: 585px;
   width: 470px;
   position: relative;
+  border-radius: 5px;
   z-index: 3;
 }
 

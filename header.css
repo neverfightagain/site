@@ -2,6 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: clip;
 
   padding: 10px 75px;
 
@@ -78,4 +79,9 @@ header {
   cursor: default;
 
   animation: var(--gradient);
+}
+
+@media (max-width: 768px) {
+  header {
+  }
 }

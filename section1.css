@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
 
   background:
     radial-gradient(circle at top left, rgba(216, 180, 255, 0.6) 0%, transparent 40%),
@@ -154,8 +155,43 @@
 @media (max-width: 768px) {
   .section1 {
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    height: auto;
+    padding: 40px 7px 0 7px;
+  }
+
+  .made-easy {
+    gap: 10px;
+  }
+  .made-easy h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  .made-easy p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .btns {
+    align-items: center;
+    justify-content: center;
+  }
+  .get-started-btn {
+    font-size: 1.125rem;
+    font-weight: 500;
+    width: 160px;
+  }
+  .section1-image{
+    height: 320px;
+    width: 370px;
   }
   .particle {
+    display: none;
+  }
+  .join {
     display: none;
   }
 }

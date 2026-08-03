@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   height: 70%;
+  margin: 0 10px;
  }
 
 .card {
@@ -91,6 +92,7 @@
 
     margin: 0;
     text-align: center;
+    white-space: nowrap;
   }
 
   .down-text {
@@ -107,19 +109,21 @@
 
   @media  (max-width: 768px) {
     .section2 {
-      height: 70vh;
-      padding: 0 10px;
+      height: 750px;
+      justify-content: flex-start;
+      padding-top: 10px;
+      gap: 10px;
     }
 
     .card-container {
       flex-direction: column;
       gap: 7px;
       width: 100%;
-      height: 80%;
+      height: auto;
     }
 
     .card-text-container {
-      height: 20%;
+      height: auto;
     }
 
     .card-text {
@@ -132,6 +136,7 @@
       width: 95% ;
       box-shadow: none;
       gap: 1px;
+      padding: 0 15px;
     }
 
     .card-image {

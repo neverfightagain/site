@@ -115,7 +115,7 @@
   color: transparent;
 }
 
-.section1-image img {
+.section1-image {
   height: 603px;
   width: 719px;
 }
@@ -158,8 +158,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    min-height: 95vh;
+    height: auto;
     gap: 70px;
-    height: 400px;
     padding: 40px 7px 0 7px;
   }
 
@@ -186,27 +187,26 @@
     width: 160px;
   }
   .section1-image{
-    height: 320px;
-    width: 370px;
+    height: auto;
+    min-width: 370px;
+    width: 100%;
   }
   .circle1 {
-    top: 30%;
-    left: 15%;
+    inset: 30% 0 0 15%;
   }
   .circle2 {
     height: 20px;
     width: 20px;
-
+    inset: 80% 0 0 80%;
   }
   .circle3 {
-    bottom: 10%;
-    left: 10%;
+    inset: 90% 0 0 10%;
   }
   .star {
     height: 40px;
     width: 40px;
-    top: 35%;
-    right: 5%;
+    inset: 35% 0 0 80%;
+
   }
   .star2 {
     display: none;

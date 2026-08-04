@@ -378,3 +378,12 @@ button:hover {
   }
 }
 
+@keyframes header-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+

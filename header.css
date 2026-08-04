@@ -81,7 +81,41 @@ header {
   animation: var(--gradient);
 }
 
+.header__burger {
+  display: none;
+}
+
+.header__burger-element {
+  height: 2px;
+  width: 30px;
+  border-radius: 12px;
+  background: var(--second-text-color);
+}
+
+
 @media (max-width: 768px) {
   header {
+    height: 50px;
+    padding: 10px;
+    transition: all .5s ease;
+    animation: header-up 1ms both ease;
+    animation-timeline: scroll(root);
+    animation-range: 0 300px;
+    align-items: center;
+  }
+  .main-logo {
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  .logo-item {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .header__burger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 }

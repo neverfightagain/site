@@ -171,3 +171,9 @@
   animation: move-left 9s ease infinite;
 }
 
+@media (min-width: 768px) {
+  flex-direction: column;
+  height: auto;
+  min-height: 80vh;
+}
+

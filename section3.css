@@ -11,22 +11,22 @@
   z-index: 3;
   overflow: clip;
 }
-
 .phone-final {
   position: relative;
+  height: auto;
+  width: auto;
 }
-
 .screen {
   position: absolute;
-  top: 2.5%;
+  top: 2%;
   left: 5%;
   z-index: 1;
 }
 
 .frame {
   position: absolute;
-  bottom: 18%;
-  left: 75%;
+  bottom: 20%;
+  left: 70%;
   z-index: 2;
 }
 
@@ -42,6 +42,7 @@
   color: black;
   margin: 0;
   font-size: 3rem;
+  text-align: center;
 }
 
 .transfer {
@@ -69,6 +70,56 @@
   cursor: default;
 }
 
-.send:hover {
-  animation: var(--gradient);
+@media (max-width: 768px){
+  .section3 {
+    flex-direction: column;
+    gap: 20px;
+    min-height: 80vh;
+    height: auto;
+  }
+  .phone-final-wrap {
+    padding: 40px 20px 0 20px;
+  }
+  .phone-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+  }
+  .phone {
+    height: auto;
+    min-width: 150px;
+    width: 70%;
+  }
+  .screen {
+    top: 2.5%;
+    left: 19%;
+    height: auto;
+    min-width: 130px;
+    width: 62%;
+  }
+  .frame {
+    height: auto;
+    min-width: 100px;
+    bottom: 25%;
+    width: 50%;
+  }
+  .text-container {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+  }
+  .send-cash {
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  .transfer {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
 }

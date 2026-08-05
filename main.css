@@ -319,10 +319,6 @@ button {
   transition: 0.3s ease;
 }
 
-button:hover {
-  transform: scale(1.05);
-}
-
 @keyframes gradient {
   0% { background-position: 0 50%; }
   50% { background-position: 100% 50%; }
@@ -384,6 +380,13 @@ button:hover {
   }
   to {
     transform: translateY(-100%);
+  }
+}
+
+@media (pointer: fine) {
+  button:hover {
+    transform: scale(1.05);
+    animation: var(--gradient);
   }
 }
 

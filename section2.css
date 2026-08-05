@@ -69,14 +69,6 @@
     animation-range: 20% 25%;
   }
 
-  .card:hover {
-    transform: scale(1.05);
-    z-index: 10;
-    box-shadow:
-      4px 18px 30px 2px rgba(51, 51, 51, 0.25),
-      -4px -18px 30px 2px rgba(96, 38, 158, 0.25);
-  }
-
   .card-image {
     position: relative;
     width:100px;
@@ -107,9 +99,19 @@
 
   }
 
+  @media (pointer: fine) {
+    .card:hover {
+      transform: scale(1.05);
+      z-index: 10;
+      box-shadow:
+        4px 18px 30px 2px rgba(51, 51, 51, 0.25),
+        -4px -18px 30px 2px rgba(96, 38, 158, 0.25);
+    }
+  }
+
   @media  (max-width: 768px) {
     .section2 {
-      min-height: 85vh;
+      min-height: 70vh;
       height: auto;
       justify-content: flex-start;
       padding-top: 10px;
